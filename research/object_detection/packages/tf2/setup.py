@@ -8,7 +8,7 @@ from setuptools import setup
 # oauth2client package.
 REQUIRED_PACKAGES = ['pillow', 'lxml', 'matplotlib', 'Cython', 'contextlib2',
                      'tf-slim', 'six', 'pycocotools', 'scipy', 'pandas',
-                     'tf-models-official']
+                     'tf-models-official==2.2.0']
 
 setup(
     name='object_detection',
