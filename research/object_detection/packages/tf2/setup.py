@@ -20,7 +20,7 @@ REQUIRED_PACKAGES = [
     'pycocotools',
     'scipy',
     'pandas',
-    'tf-models-official'
+    'tf-models-official=2.2.0'
 ]
 
 setup(
